@@ -1,0 +1,8 @@
+[package]
+name = "fdstore"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libsystemd = "0.7.0"
+rustix = { version = "0.38.37", features = ["fs", "mm"] }
